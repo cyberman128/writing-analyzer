@@ -1,5 +1,7 @@
-f = open("C:/Users/steve/Downloads/file.txt")
+#enter text file path
+f = open("")
 
+#I'm working out of google drive which uses approximately 3600 characters per page
 character_count_modifier = 3600
 num_pages = input("Enter a number of pages:")
 
