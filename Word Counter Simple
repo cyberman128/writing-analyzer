@@ -1,4 +1,4 @@
-f = open("C:/Users/steve/Downloads/file.txt")
+f = open("YOUR FILE PATH HERE")
 indv_word_list = f.read().split()
 word_count = {}
 for word in indv_word_list:
