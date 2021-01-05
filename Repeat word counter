@@ -1,0 +1,11 @@
+f = open("C:/Users/steve/Downloads/file.txt")
+indv_word_list = f.read().split()
+word_count = {}
+for word in indv_word_list:
+    if word not in word_count:
+        word_count[word] = 1
+    else: word_count[word] += 1
+result = list(word_count.items())
+result.sort(key=lambda x: x[1])
+result.reverse()
+print(result)

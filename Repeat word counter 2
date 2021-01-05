@@ -1,0 +1,22 @@
+f = open("C:/Users/steve/Downloads/file.txt")
+
+character_count_modifier = 3600
+num_pages = input("Enter a number of pages:")
+
+y = character_count_modifier * int(num_pages)
+y_raw_output = f.readlines(y)
+y_raw_string = " ".join(y_raw_output)
+indv_word_list = y_raw_string.split()
+
+#print(y_raw_string)
+
+word_count = {}
+
+for word in indv_word_list:
+    if word not in word_count:
+        word_count[word] = 1
+    else: word_count[word] += 1
+result = list(word_count.items())
+result.sort(key=lambda x: x[1])
+result.reverse()
+print(result)
