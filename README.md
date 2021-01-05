@@ -5,9 +5,9 @@ is similar during each editing session however I've noticed I have a tendency to
 
 This is an incredibly simple example, but it shows the principle of my issue.
 
-My goal is to show my progress by adding functionality to my idea with each new version. Each set of code will run on its own, stand alone.
+My goal is to add functionality with each new version and each set of code will run as a stand alone.
 
-The eventual goal is a programthat will analyze a page range in a document and provide a unique word count. In addtion, I'd like to find a
+The eventual goal is a program that will analyze a page range in a document and provide a unique word count. In addtion, I'd like to find a
 way to track various conjugations and permutations of words.
 
 incrdible
