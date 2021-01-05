@@ -1,4 +1,5 @@
-f = open("YOUR FILE PATH HERE")
+#enter your text file's path below
+f = open("")
 indv_word_list = f.read().split()
 word_count = {}
 for word in indv_word_list:
