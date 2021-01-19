@@ -1,5 +1,5 @@
 #enter text file path
-f = open("/home/stephen/cyberman_git_hub/writing-analyzer/my_file.txt")
+f = open("")
 
 character_count_modifier = 3600
 num_pages = input("Enter a number of pages:")
@@ -15,9 +15,9 @@ count_ready_list = []
 word_dict_with_counts = {}
 
 exceptions = ["simply", "family"]
-fillers_to_remove = ["a", "and", "as", "at", "are", "for", "have", "has", "he", "her", "his",
-                     "i", "if", "in", "is", "it", "its", "my", "mine", "no", "not",
-                     "of", "she", "that", "this", "the", "them", "then", "than", "to", "was", "we", "with", "you"]
+fillers_to_remove = ["a", "and", "as", "at", "are", "for", "have", "has", "he", "her", "his", "i",
+                     "if", "in", "is", "it", "its", "my", "mine", "no", "not", "of", "she", "that",
+                     "this", "the", "them", "then", "than", "to", "was", "we", "with", "you"]
 
 for a in word_list:
     lowercase_word_list.append(a.lower())
