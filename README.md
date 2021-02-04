@@ -7,7 +7,7 @@ This is an incredibly simple example, but it shows the principle of my issue.
 
 My goal is to add functionality with each new version and each set of code will run as a stand alone.
 
-The eventual goal is a program that will analyze a page range in a document and provide a unique word count. In addtion, I'd like to find a
+The eventual goal is a program that will analyze a page range in a document and provide a unique word count. In addition, I'd like to find a
 way to track various conjugations and permutations of words.
 
 incrdible
