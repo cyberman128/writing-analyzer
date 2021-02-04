@@ -10,7 +10,7 @@ My goal is to add functionality with each new version and each set of code will 
 The eventual goal is a program that will analyze a page range in a document and provide a unique word count. In addition, I'd like to find a
 way to track various conjugations and permutations of words.
 
-incrdible
+incredible
 incredibly
 
 Both versions of the word incredible should feed into the same entry on my individual words list.
